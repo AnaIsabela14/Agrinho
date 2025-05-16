@@ -39,7 +39,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Imagem banner */
 .imagem-banner img {
     width: 100%;
     height: auto;
@@ -47,7 +46,6 @@ nav a:hover {
     margin: 0;
 }
 
-/* Conteúdo principal */
 main {
     padding: 40px 20px;
     max-width: 900px;
@@ -91,7 +89,6 @@ ul li {
     background-color: #256f46;
 }
 
-/* Formulário */
 form {
     display: flex;
     flex-direction: column;
@@ -125,6 +122,26 @@ button:hover {
     background-color: #256f46;
 }
 
+/* Galeria de Fotos */
+.galeria {
+    text-align: center;
+}
+
+.galeria .fotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.galeria img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 /* Rodapé */
 footer {
     background-color: #228B22;
@@ -132,4 +149,15 @@ footer {
     text-align: center;
     padding: 20px;
 }
-        
+header .tema {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #e0ffe0;
+}
+header .tema {
+    margin-top: 10px;
+    font-size: 1.3em;
+    font-style: italic;
+    color: #c3fbc3;
+}
